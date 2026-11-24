@@ -1,11 +1,11 @@
-# Tokushima & Yoshinogawa
+# Tokushima \& Yoshinogawa
 
 Projeto individual da matéria de Teoria e Desenvolvimento (TDS) no 4º Bimestre.
 Feito em C# e WPF por Henrique Daisuke Akiyama.
 
 ## O que é o projeto
 
-**Tokushima & Yoshinogawa** é um jogo de estratégia por turnos para 2 jogadores.
+**Tokushima \& Yoshinogawa** é um jogo de estratégia por turnos para 2 jogadores.
 Cada jogador governa uma das duas cidades (Tokushima ou Yoshinogawa) e toma
 decisões sobre **comércio, obras públicas, segurança** e outras áreas da
 administração.
@@ -21,14 +21,14 @@ Faça git clone do repositório, abra o arquivo .sln e no Visual Studio aperte f
 
 ## Requisitos
 
-- Windows 10/11
-- .NET 10 (Faça download aqui: https://dotnet.microsoft.com/pt-br/download/dotnet/10.0 ) e/ou Visual Studio 2022 
+* Windows 10/11
+* .NET 10 (Faça download aqui: https://dotnet.microsoft.com/pt-br/download/dotnet/10.0 ) e/ou Visual Studio 2022
 
 ## Etapas do projeto
 
-1. Estrutura inicial, Main e menu - @
-2. Classes Jogador e Cidade - !
-3. Economia: florins, terras e grãos - !
+1. Estrutura inicial, Main e menu - \*
+2. Classes Jogador e Cidade - \*
+3. Economia: florins, terras e grãos - @
 4. Agricultura e população - !
 5. Impostos e governo - !
 6. Construções e soldados - !
@@ -39,4 +39,5 @@ Faça git clone do repositório, abra o arquivo .sln e no Visual Studio aperte f
 
 !: a fazer.
 @: Trabalhando nisso.
-*: Concluído.
+\*: Concluído.
+

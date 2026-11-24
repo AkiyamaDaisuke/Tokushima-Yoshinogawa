@@ -5,17 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Tokushima_Yoshinogawa_WPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800"
-        Closing="Window_Closing">
+        WindowState="Maximized"
+        WindowStyle="None"
+        
+        Title="MainWindow" Height="1080" Width="1920">
     
     <Grid Background="#f5f5f7">
         <!-- Utilizando esta cor pois branco "White" costuma ofuscar/incomodar usuários-->
-        <TextBlock Text="Tokushima &amp; Yoshinogawa" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0, 20,0,0" FontSize="50"/>
+        <TextBlock Text="Tokushima &amp; Yoshinogawa" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0, 20,0,0" FontSize="100"/>
 
         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
-            <Button Content="Jogar" Click="Jogar_Click" Height="45" Width="150" Margin="0,0,0,5"/>
-            <Button Content="Sobre" Click="Sobre_Click" Height="45" Width="150" Margin="0,5"/>
-            <Button Content="Sair" Click="Close_Click" Height="45" Width="150" Margin="0,5,0,0"/>
+            <Button Content="Jogar" FontSize="45" Click="Jogar_Click" Height="95" Width="900" Margin="0,0,0,15"/>
+            <Button Content="Sobre" FontSize="45" Click="Sobre_Click" Height="95" Width="900" Margin="0,15"/>
+            <Button Content="Sair" FontSize="45" Click="Close_Click" Height="95" Width="900" Margin="0,15,0,0"/>
         </StackPanel>
 
     </Grid>

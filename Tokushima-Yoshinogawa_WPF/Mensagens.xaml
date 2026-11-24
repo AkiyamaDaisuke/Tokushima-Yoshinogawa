@@ -5,17 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Tokushima_Yoshinogawa_WPF"
         mc:Ignorable="d"
-        Title="Mensagens" Height="450" Width="800"
+        Title="Mensagens" Height="225" Width="400"
         WindowStartupLocation="CenterOwner"
-        ResizeMode="NoResize">
+        ResizeMode="NoResize"
+        WindowStyle="None">
 
-    <Grid Margin="20">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
+    <Border BorderBrush="Black" 
+        BorderThickness="5" 
+        CornerRadius="2" 
+        Background="White">
 
-        <TextBlock x:Name="Mensagem"
+        <Grid Margin="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock x:Name="Mensagem"
                    Grid.Row="0"
                    Text="Mensagem"
                    FontSize="20"
@@ -25,15 +31,16 @@
                    VerticalAlignment="Top"
                    Margin="0,10,0,20"/>
 
-        
-        <StackPanel Grid.Row="1"
+
+            <StackPanel Grid.Row="1"
                     Orientation="Horizontal"
                     HorizontalAlignment="Center"
                     VerticalAlignment="Center">
-            
-            <Button x:Name="BotaoOk" Content="OK" Width="120" Height="40" Margin="10" Click="BotaoOk_Click"/>
-            <Button x:Name="BotaoCancelar" Content="Cancelar" Width="120" Height="40" Margin="10"/>
-            
-        </StackPanel>
-    </Grid>
+
+                <Button x:Name="BotaoOk" Content="OK" Width="120" Height="40" Margin="10" Click="BotaoOk_Click"/>
+                <Button x:Name="BotaoCancel" Content="Cancelar" Width="120" Height="40" Margin="10" Click="BotaoCancel_Click"/>
+
+            </StackPanel>
+        </Grid>
+    </Border>
 </Window>

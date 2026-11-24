@@ -16,6 +16,7 @@ namespace Tokushima_Yoshinogawa_WPF
     /// </summary>
     public partial class MainWindow : Window
     {
+
         public MainWindow()
         {
             InitializeComponent();
@@ -23,7 +24,9 @@ namespace Tokushima_Yoshinogawa_WPF
 
         private void Jogar_Click(object sender, RoutedEventArgs e)
         {
-
+            var Jogando = new Jogando();
+            Jogando.Show();
+            this.Close();
         }
 
         private void Sobre_Click(object sender, RoutedEventArgs e)

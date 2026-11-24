@@ -25,19 +25,18 @@ namespace Tokushima_Yoshinogawa_WPF
 
             if (caso == 1)
             {
-                BotaoOk.Visibility = Visibility.Visible;
                 BotaoOk.HorizontalAlignment = HorizontalAlignment.Center;
-                BotaoCancelar.Visibility = Visibility.Collapsed;
+                BotaoCancel.Visibility = Visibility.Collapsed;
             }
             else if (caso == 2)
             {
+                BotaoCancel.Visibility = Visibility.Visible;
                 BotaoOk.Visibility = Visibility.Visible;
-                BotaoCancelar.Visibility = Visibility.Visible;
             }
             else
             {
                 BotaoOk.Content = "Sim";
-                BotaoCancelar.Content = "Não";
+                BotaoCancel.Content = "Não";
             }
         }
 
@@ -46,9 +45,10 @@ namespace Tokushima_Yoshinogawa_WPF
             this.DialogResult = true;
         }
 
-        private void BotaoCancelar_Click(object sender, RoutedEventArgs e)
+        private void BotaoCancel_Click(object sender, RoutedEventArgs e)
         {
             this.DialogResult = false;
+            this.Close();
         }
     }
 }

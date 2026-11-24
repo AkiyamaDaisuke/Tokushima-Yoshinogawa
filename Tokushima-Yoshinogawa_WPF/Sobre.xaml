@@ -5,16 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Tokushima_Yoshinogawa_WPF"
         mc:Ignorable="d"
-        Title="Sobre" Height="450" Width="800">
+        WindowState="Maximized"
+        WindowStyle="None"
+        Title="Sobre" Height="1080" Width="1920">
     <Grid Background="#f5f5f7">
-        <TextBlock Text="Tokushima &amp; Yoshinogawa" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0, 20,0,0" FontSize="50"/>
+        <TextBlock Text="Tokushima &amp; Yoshinogawa" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0, 20,0,0" FontSize="100"/>
 
         <TextBlock Text="Tokushima &amp; Yoshinogawa é um jogo de estratégia por turnos para 2 jogadores.&#10;Cada jogador governa uma das duas cidades (Tokushima ou Yoshinogawa) e toma decisões sobre comércio, obras públicas, segurança e outras áreas da administração.&#10;O objetivo é simples de enunciar e difícil de alcançar: terminar com a maior taxa de satisfação dos cidadãos em relação ao oponente.&#10;O jogador escolhe entre 5 e 10 rodadas — vence quem tiver a maior satisfação ao final."
            VerticalAlignment="Center"
            HorizontalAlignment="Center"
-           FontSize="10"/>
+           FontSize="20"/>
 
-        <Button Content="Voltar" Click="Voltar_Click" VerticalAlignment="Bottom" Height="45" Width="150" Margin="0,0,0,50"/>
+        <Button Content="Voltar" Click="Voltar_Click" VerticalAlignment="Bottom" Height="65" Width="170" Margin="0,0,0,50"/>
 
     </Grid>
 </Window>
