@@ -53,7 +53,7 @@ namespace Tokushima_Yoshinogawa_WPF {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Tokushima-Yoshinogawa_WPF;component/sobre.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Tokushima-Yoshinogawa_WPF;V1.0.0.0;component/sobre.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Sobre.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

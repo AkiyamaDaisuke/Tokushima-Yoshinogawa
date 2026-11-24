@@ -17,6 +17,9 @@ namespace Tokushima_Yoshinogawa_WPF.Models
         public static int TerrasPlantadas { get; set; }
         public static int Rodada { get; set; }
         public static int Satisfacao { get; set; } = 65;
+        public static int Fazendas { get; set; }
+        public static bool TemQuartel { get; set; }
+        public static int Soldados { get; set; }
 
     }
 }

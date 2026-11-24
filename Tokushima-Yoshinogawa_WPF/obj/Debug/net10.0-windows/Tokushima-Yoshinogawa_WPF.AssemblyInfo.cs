@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tokushima-Yoshinogawa_WPF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c0a39eb4cea049770c4542f8976e0d71343bbae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f6413b6d1f29366862fe6f9b8923dac9e950caa")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tokushima-Yoshinogawa_WPF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tokushima-Yoshinogawa_WPF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
