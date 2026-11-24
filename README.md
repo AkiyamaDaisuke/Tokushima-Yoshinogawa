@@ -28,10 +28,10 @@ Faça git clone do repositório, abra o arquivo .sln e no Visual Studio aperte f
 
 1. Estrutura inicial, Main e menu - \*
 2. Classes Jogador e Cidade - \*
-3. Economia: florins, terras e grãos - @
-4. Agricultura e população - !
-5. Impostos e governo - !
-6. Construções e soldados - !
+3. Economia: florins, terras e grãos - \*
+4. Agricultura e população - \*
+5. Impostos e governo - \*
+6. Construções e soldados - @
 7. Rodadas, 2 jogadores e condições de vitória - !
 8. Integração, testes e entrega final - !
 
@@ -39,5 +39,7 @@ Faça git clone do repositório, abra o arquivo .sln e no Visual Studio aperte f
 
 !: a fazer.
 @: Trabalhando nisso.
+
+°: Já há algo relacionado
 \*: Concluído.
 

@@ -23,14 +23,64 @@
             <Button Content="Voltar ao menu" Height="42" FontSize="16" Margin="0,10,0,0" Click="Voltar_Click"/>
         </StackPanel>
 
-        <StackPanel x:Name="ResumoPartida" Visibility="Collapsed" VerticalAlignment="Center" HorizontalAlignment="Center">
-            <TextBlock Text="Partida iniciada" FontSize="38" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,28"/>
-            <TextBlock x:Name="ResumoJogador" FontSize="24" TextAlignment="Center" Margin="0,0,0,10"/>
-            <TextBlock x:Name="NomeCidade" FontSize="32" FontWeight="SemiBold" TextAlignment="Center" Margin="0,0,0,10"/>
-            <TextBlock x:Name="ResumoDificuldade" FontSize="20" TextAlignment="Center" Margin="0,0,0,20"/>
-            <TextBlock x:Name="ResumoSatisfacao" FontSize="26" FontWeight="Bold" TextAlignment="Center" Foreground="#245c3a"/>
-            <TextBlock Text="Este é o valor inicial; as decisões da partida podem alterá-lo." FontSize="15" TextAlignment="Center" TextWrapping="Wrap" Width="480" Margin="0,16,0,24"/>
-            <Button Content="Voltar ao menu" Width="240" Height="46" FontSize="18" Click="Voltar_Click" HorizontalAlignment="Center"/>
-        </StackPanel>
+        <ScrollViewer x:Name="ResumoPartida" Visibility="Collapsed" VerticalScrollBarVisibility="Auto">
+            <StackPanel MaxWidth="1000" HorizontalAlignment="Center" Margin="20">
+                <TextBlock Text="Partida iniciada" FontSize="38" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,18"/>
+                <TextBlock x:Name="ResumoJogador" FontSize="22" TextAlignment="Center" Margin="0,0,0,6"/>
+                <TextBlock x:Name="NomeCidade" FontSize="30" FontWeight="SemiBold" TextAlignment="Center" Margin="0,0,0,6"/>
+                <TextBlock x:Name="ResumoDificuldade" FontSize="18" TextAlignment="Center" Margin="0,0,0,6"/>
+                <TextBlock x:Name="ResumoSatisfacao" FontSize="22" FontWeight="Bold" TextAlignment="Center" Foreground="#245c3a" Margin="0,0,0,20"/>
+                <Border Background="White" CornerRadius="10" Padding="24" BorderBrush="#ddd" BorderThickness="1">
+                    <StackPanel>
+                        <TextBlock Text="Mercado da cidade" FontSize="30" FontWeight="Bold" Margin="0,0,0,12"/>
+                        <TextBlock x:Name="SaldoTexto" FontSize="24" FontWeight="SemiBold" Foreground="#245c3a" Margin="0,0,0,16"/>
+                        <TextBlock x:Name="EstoqueTexto" FontSize="18" Margin="0,0,0,16"/>
+                        <TextBlock Text="Preços: grãos — compra 10 Yenes / venda 7 Yenes; terras — compra 100 Yenes / venda 70 Yenes." TextWrapping="Wrap" FontSize="15" Foreground="#555" Margin="0,0,0,16"/>
+                        <DockPanel LastChildFill="False" Margin="0,4">
+                            <TextBlock Text="Grãos" FontSize="18" Width="100" VerticalAlignment="Center"/>
+                            <TextBox x:Name="QuantidadeGraos" Text="1" Width="90" Height="38" FontSize="18" Padding="6" Margin="8,0"/>
+                            <Button Content="Comprar" Tag="graos-comprar" Width="120" Height="38" Margin="4,0" Click="Mercado_Click"/>
+                            <Button Content="Vender" Tag="graos-vender" Width="120" Height="38" Margin="4,0" Click="Mercado_Click"/>
+                        </DockPanel>
+                        <DockPanel LastChildFill="False" Margin="0,4">
+                            <TextBlock Text="Terras" FontSize="18" Width="100" VerticalAlignment="Center"/>
+                            <TextBox x:Name="QuantidadeTerras" Text="1" Width="90" Height="38" FontSize="18" Padding="6" Margin="8,0"/>
+                            <Button Content="Comprar" Tag="terras-comprar" Width="120" Height="38" Margin="4,0" Click="Mercado_Click"/>
+                            <Button Content="Vender" Tag="terras-vender" Width="120" Height="38" Margin="4,0" Click="Mercado_Click"/>
+                        </DockPanel>
+                        <TextBlock x:Name="MensagemMercado" FontSize="16" TextWrapping="Wrap" Margin="0,14,0,0"/>
+                    </StackPanel>
+                </Border>
+                <Border Background="White" CornerRadius="10" Padding="24" BorderBrush="#ddd" BorderThickness="1" Margin="0,16,0,0">
+                    <StackPanel>
+                        <TextBlock Text="Agricultura e população" FontSize="28" FontWeight="Bold" Margin="0,0,0,12"/>
+                        <TextBlock x:Name="AgriculturaTexto" FontSize="18" TextWrapping="Wrap" Margin="0,0,0,12"/>
+                        <DockPanel LastChildFill="False" Margin="0,4">
+                            <TextBlock Text="Terras para plantar" FontSize="17" VerticalAlignment="Center"/>
+                            <TextBox x:Name="QuantidadePlantio" Text="1" Width="90" Height="38" FontSize="18" Padding="6" Margin="12,0"/>
+                            <Button Content="Plantar" Width="130" Height="38" Click="Plantar_Click"/>
+                        </DockPanel>
+                        <TextBlock Text="Cada terra plantada consome 1 grão e rende 3 grãos na próxima rodada." FontSize="14" Foreground="#555" Margin="0,8,0,0"/>
+                    </StackPanel>
+                </Border>
+                <Border Background="White" CornerRadius="10" Padding="24" BorderBrush="#ddd" BorderThickness="1" Margin="0,16,0,0">
+                    <StackPanel>
+                        <TextBlock Text="Governo e impostos" FontSize="28" FontWeight="Bold" Margin="0,0,0,12"/>
+                        <TextBlock x:Name="GovernoTexto" FontSize="18" TextWrapping="Wrap" Margin="0,0,0,12"/>
+                        <DockPanel LastChildFill="False" Margin="0,4">
+                            <TextBlock Text="Alíquota de imposto" FontSize="17" VerticalAlignment="Center"/>
+                            <ComboBox x:Name="AliquotaImposto" Width="140" Height="38" FontSize="17" SelectedIndex="1" Margin="12,0">
+                                <ComboBoxItem Content="5%" Tag="5"/>
+                                <ComboBoxItem Content="10%" Tag="10"/>
+                                <ComboBoxItem Content="20%" Tag="20"/>
+                            </ComboBox>
+                        </DockPanel>
+                        <Button Content="Fechar rodada" Width="190" Height="44" FontSize="17" Click="FecharRodada_Click" Margin="0,14,0,0" HorizontalAlignment="Left"/>
+                        <TextBlock x:Name="MensagemRodada" FontSize="16" TextWrapping="Wrap" Margin="0,12,0,0"/>
+                    </StackPanel>
+                </Border>
+                <Button Content="Voltar ao menu" Width="240" Height="46" FontSize="18" Click="Voltar_Click" HorizontalAlignment="Center" Margin="0,18,0,0"/>
+            </StackPanel>
+        </ScrollViewer>
     </Grid>
 </Window>
