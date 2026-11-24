@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Daisuke\\Documents\\GitHub\\Tokushima-Yoshinogawa\\Tokushima-Yoshinogawa.git\\Tokushima-Yoshinogawa_WPF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{365224A4-BB16-4E61-13BF-5B3DA2A307FB}|Tokushima-Yoshinogawa_WPF.csproj|c:\\users\\daisuke\\documents\\github\\tokushima-yoshinogawa\\tokushima-yoshinogawa.git\\tokushima-yoshinogawa_wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{365224A4-BB16-4E61-13BF-5B3DA2A307FB}|Tokushima-Yoshinogawa_WPF.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{365224A4-BB16-4E61-13BF-5B3DA2A307FB}|Tokushima-Yoshinogawa_WPF.csproj|c:\\users\\daisuke\\documents\\github\\tokushima-yoshinogawa\\tokushima-yoshinogawa.git\\tokushima-yoshinogawa_wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{365224A4-BB16-4E61-13BF-5B3DA2A307FB}|Tokushima-Yoshinogawa_WPF.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{365224A4-BB16-4E61-13BF-5B3DA2A307FB}|Tokushima-Yoshinogawa_WPF.csproj|c:\\users\\daisuke\\documents\\github\\tokushima-yoshinogawa\\tokushima-yoshinogawa.git\\tokushima-yoshinogawa_wpf\\sobre.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{365224A4-BB16-4E61-13BF-5B3DA2A307FB}|Tokushima-Yoshinogawa_WPF.csproj|solutionrelative:sobre.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{365224A4-BB16-4E61-13BF-5B3DA2A307FB}|Tokushima-Yoshinogawa_WPF.csproj|c:\\users\\daisuke\\documents\\github\\tokushima-yoshinogawa\\tokushima-yoshinogawa.git\\tokushima-yoshinogawa_wpf\\sobre.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{365224A4-BB16-4E61-13BF-5B3DA2A307FB}|Tokushima-Yoshinogawa_WPF.csproj|solutionrelative:sobre.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{365224A4-BB16-4E61-13BF-5B3DA2A307FB}|Tokushima-Yoshinogawa_WPF.csproj|c:\\users\\daisuke\\documents\\github\\tokushima-yoshinogawa\\tokushima-yoshinogawa.git\\tokushima-yoshinogawa_wpf\\mensagens.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{365224A4-BB16-4E61-13BF-5B3DA2A307FB}|Tokushima-Yoshinogawa_WPF.csproj|solutionrelative:mensagens.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{365224A4-BB16-4E61-13BF-5B3DA2A307FB}|Tokushima-Yoshinogawa_WPF.csproj|c:\\users\\daisuke\\documents\\github\\tokushima-yoshinogawa\\tokushima-yoshinogawa.git\\tokushima-yoshinogawa_wpf\\mensagens.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{365224A4-BB16-4E61-13BF-5B3DA2A307FB}|Tokushima-Yoshinogawa_WPF.csproj|solutionrelative:mensagens.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Sobre.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Daisuke\\Documents\\GitHub\\Tokushima-Yoshinogawa\\Tokushima-Yoshinogawa.git\\Tokushima-Yoshinogawa_WPF\\Sobre.xaml.cs",
+              "RelativeDocumentMoniker": "Sobre.xaml.cs",
+              "ToolTip": "C:\\Users\\Daisuke\\Documents\\GitHub\\Tokushima-Yoshinogawa\\Tokushima-Yoshinogawa.git\\Tokushima-Yoshinogawa_WPF\\Sobre.xaml.cs",
+              "RelativeToolTip": "Sobre.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T05:58:43.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Mensagens.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Daisuke\\Documents\\GitHub\\Tokushima-Yoshinogawa\\Tokushima-Yoshinogawa.git\\Tokushima-Yoshinogawa_WPF\\Mensagens.xaml.cs",
+              "RelativeDocumentMoniker": "Mensagens.xaml.cs",
+              "ToolTip": "C:\\Users\\Daisuke\\Documents\\GitHub\\Tokushima-Yoshinogawa\\Tokushima-Yoshinogawa.git\\Tokushima-Yoshinogawa_WPF\\Mensagens.xaml.cs",
+              "RelativeToolTip": "Mensagens.xaml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAYwDIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T05:37:32.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Mensagens.xaml",
+              "DocumentMoniker": "C:\\Users\\Daisuke\\Documents\\GitHub\\Tokushima-Yoshinogawa\\Tokushima-Yoshinogawa.git\\Tokushima-Yoshinogawa_WPF\\Mensagens.xaml",
+              "RelativeDocumentMoniker": "Mensagens.xaml",
+              "ToolTip": "C:\\Users\\Daisuke\\Documents\\GitHub\\Tokushima-Yoshinogawa\\Tokushima-Yoshinogawa.git\\Tokushima-Yoshinogawa_WPF\\Mensagens.xaml",
+              "RelativeToolTip": "Mensagens.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-24T05:34:06.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Sobre.xaml",
+              "DocumentMoniker": "C:\\Users\\Daisuke\\Documents\\GitHub\\Tokushima-Yoshinogawa\\Tokushima-Yoshinogawa.git\\Tokushima-Yoshinogawa_WPF\\Sobre.xaml",
+              "RelativeDocumentMoniker": "Sobre.xaml",
+              "ToolTip": "C:\\Users\\Daisuke\\Documents\\GitHub\\Tokushima-Yoshinogawa\\Tokushima-Yoshinogawa.git\\Tokushima-Yoshinogawa_WPF\\Sobre.xaml",
+              "RelativeToolTip": "Sobre.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-24T05:30:19.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Daisuke\\Documents\\GitHub\\Tokushima-Yoshinogawa\\Tokushima-Yoshinogawa.git\\Tokushima-Yoshinogawa_WPF\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Daisuke\\Documents\\GitHub\\Tokushima-Yoshinogawa\\Tokushima-Yoshinogawa.git\\Tokushima-Yoshinogawa_WPF\\MainWindow.xaml*",
+              "RelativeToolTip": "MainWindow.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-24T04:55:09.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Daisuke\\Documents\\GitHub\\Tokushima-Yoshinogawa\\Tokushima-Yoshinogawa.git\\Tokushima-Yoshinogawa_WPF\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Daisuke\\Documents\\GitHub\\Tokushima-Yoshinogawa\\Tokushima-Yoshinogawa.git\\Tokushima-Yoshinogawa_WPF\\MainWindow.xaml.cs*",
+              "RelativeToolTip": "MainWindow.xaml.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T03:52:18.794Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
