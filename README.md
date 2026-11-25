@@ -33,7 +33,7 @@ Faça git clone do repositório, abra o arquivo .sln e no Visual Studio aperte f
 5. Impostos e governo - *
 6. Construções e soldados - *
 7. Rodadas, 2 jogadores e condições de vitória - *
-8. Integração, testes e entrega final - !
+8. Integração, testes e entrega final - @
 
 ## Legenda
 
